@@ -9,7 +9,7 @@
 
 ##### 如何使用该Jenkins共享库？
 
-1. 在Jenkins控制页面中选择"Manage Jenkins" --> "Configure System" --> "Global Pipeline Libraries" --> 填入"Name"别名, "Default version"填入该项目已存在的分支名称如master, "Source Code Management"选择Git并填入该项目的github路径，具体如下图所示：
+###### 1. 在Jenkins控制页面中选择"Manage Jenkins" --> "Configure System" --> "Global Pipeline Libraries" --> 填入"Name"别名, "Default version"填入该项目已存在的分支名称如master, "Source Code Management"选择Git并填入该项目的github路径，具体如下图所示：
 
 
-2. In Jenkinsfile use @Library('gitlab-mylibs@master') _ to include this Name alias in Jenkins Configure System.
+###### 2. In Jenkinsfile use @Library('gitlab-mylibs@master') _ to include this Name alias in Jenkins Configure System.
